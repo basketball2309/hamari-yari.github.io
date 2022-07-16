@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Just for us </title>
+    <style type="text/css">
+        #btn {
+            position: absolute;
+            width: 300px;
+            height: 100px;
+            border-width: 5px;
+            border-radius: 40px;
+            font-size: 25px;
+            font-weight: bold;
+            color: brown;
+            cursor: pointer;
+            top: 1px;
+
+        }
+
+        #btn:active {
+            font-size: 23px;
+        }
+
+        #btn2 {
+            position: absolute;
+            width: 300px;
+            height: 100px;
+            border-width: 5px;
+            border-radius: 40px;
+            font-size: 25px;
+            font-weight: bold;
+            color: brown;
+            cursor: pointer;
+            bottom: -1px;
+
+        }
+
+        #btn2:active {
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="main">
+
+
+        <button id="btn" onclick="audio.play();">REMEMBER</button>
+        <script type="text/javascript">
+            const audio = new Audio();
+            audio.src = "./proverb.mp3";
+        </script>
+        <!-- surprise -->
+        <audio id="btn2" src="believe.mp3" type="audio/mp3" controls></audio>
+
+        <!-- <button id="btn2" onclick="audio.play();">BELIEF</button>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "./believe.mp3"; -->
+        </script>
+        <div class="box">
+            <span style="--i:1;"><img src="9.PNG" alt=""></span>
+            <span style="--i:2;"><img src="6.PNG" alt=""></span>
+            <span style="--i:3;"><img src="7.PNG" alt=""></span>
+            <span style="--i:4;"><img src="8.PNG" alt=""></span>
+            <span style="--i:5;"><img src="2.jpg" alt=""></span>
+            <span style="--i:5;"><img src="5.jpg" alt=""></span>
+            <!-- <span style="--i:5;"><img src="" alt=""></span> -->
+
+
+
+        </div>
+    </div>
+</body>
