@@ -20,7 +20,7 @@
         height: 70px;
     }
 }
-@media(max-width:450px)
+@media(max-height:450px)
 {
     html{
         font-size: 40%;
